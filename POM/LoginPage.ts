@@ -8,10 +8,10 @@ export default class LoginPageClass{
     constructor(page:any)
     {
     this.page = page;
-    this.goto = page.goto('https://www.saucedemo.com/');
-    this.username = page.locator('#user-name');
-    this.password = page.locator('#password');
-    this.Loginbutton = page.locator('#login-button');
+    this.goto = page.goto('https://www.saucedemo.com/'); 
+    this.username = page.locator('#user-name'); 
+    this.password = page.locator('#password'); 
+    this.Loginbutton = page.locator('#login-button'); 
     }
      goTo()
     {
